@@ -53,21 +53,14 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 
 ## 🚀 Como Rodar
 
-### 1. Treinamento
-Entre na pasta `TreinamentoML` e execute o projeto para gerar o `SentimentModel.mlnet`.
-
-```bash
-dotnet run
-```
-
-### 2. API ASP.NET Core
+### 1. API ASP.NET Core
 
 ```bash
 cd ApiClassificador
 dotnet run
 ```
 
-### 3. Angular
+### 2. Angular
 
 ```bash
 cd FrontEndAngularIA
