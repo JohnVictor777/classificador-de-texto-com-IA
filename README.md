@@ -42,10 +42,10 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 ## 📁 Estrutura do Projeto
 
 ```
-/classificador-texto-ia
+/ClassificadorDeTextoComIA
 ├── TreinamentoML/        -> Treinamento e modelo IA
 ├── ApiClassificador/     -> Web API com ASP.NET Core + EF Core
-├── FrontEndAngular/      -> Aplicação Angular
+├── FrontEndAngularIA/    -> Aplicação Angular
 └── README.md             -> Este arquivo
 ```
 
@@ -54,7 +54,7 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 ## 🚀 Como Rodar
 
 ### 1. Treinamento
-Entre na pasta `TreinamentoML` e execute o projeto para gerar o `modelo.zip`.
+Entre na pasta `TreinamentoML` e execute o projeto para gerar o `SentimentModel.mlnet`.
 
 ```bash
 dotnet run
@@ -70,7 +70,7 @@ dotnet run
 ### 3. Angular
 
 ```bash
-cd FrontEndAngular
+cd FrontEndAngularIA
 npm install
 ng serve
 ```
