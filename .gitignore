@@ -3,6 +3,62 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações sensíveis
+appsettings.*.json
+!appsettings.json
+
+# Logs
+*.log
+logs/
+
+# Angular
+/node_modules/
+dist/
+tmp/
+.angular/
+.idea/
+.vscode/
+
+# Ambientes (NÃO subir)
+**/environment.ts
+**/environment.*.ts
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode & JetBrains
+.vscode/
+*.code-workspace
+.idea/
+
+# Git
+*.orig
+
+# Teste e build
+coverage/
+*.tgz
+
+# Configs do npm/yarn
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+
 # User-specific files
 *.rsuser
 *.suo
