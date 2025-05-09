@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Classificador de Texto com IA</h1>
+
+  <textarea placeholder="Digite seu texto aqui..." #textInput></textarea>
+
+  <button (click)="classificarTexto(textInput.value)" [disabled]="carregando">
+    {{ carregando ? 'Analisando...' : 'Classificar' }}
+  </button>
+
+  <div *ngIf="resultado" class="resultado">
+    <h3>Resultado:</h3>
+    <p>Sentimento: <strong>{{ resultado }}</strong></p>
+  </div>
+
+  <div *ngIf="erro" class="erro">
+    {{ erro }}
+  </div>
+</div>
