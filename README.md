@@ -2,21 +2,21 @@
 
 Este é um projeto completo de portfólio que integra **inteligência artificial** com **classificação de textos**, desenvolvido com:
 
-- 🔷 ASP.NET Core (Web API)
-- 🧠 ML.NET (IA para classificar texto)
-- 📦 Entity Framework Core (banco de dados relacional)
-- 🧩 Angular (interface front-end)
+- ASP.NET Core (Web API)
+- ML.NET (IA para classificar texto)
+- Entity Framework Core (banco de dados relacional)
+- Angular (interface front-end)
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Permitir que o usuário insira um texto e receba uma **classificação automática (positivo, negativo, neutro)**.  
 Todos os textos e classificações são **salvos no banco de dados** para histórico e análise futura.
 
 ---
 
-## 🧪 Funcionalidades
+## Funcionalidades
 
 - [x] Treinamento de IA com ML.NET
 - [x] Classificação automática de texto
@@ -27,7 +27,7 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 
 ---
 
-## 🛠️ Tecnologias Usadas
+## Tecnologias Usadas
 
 | Camada        | Tecnologia             |
 |---------------|------------------------|
@@ -39,7 +39,7 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 /ClassificadorDeTextoComIA
@@ -51,7 +51,7 @@ Todos os textos e classificações são **salvos no banco de dados** para histó
 
 ---
 
-## 🚀 Como Rodar
+## Como Rodar
 
 ### 1. API ASP.NET Core
 
@@ -70,13 +70,13 @@ ng serve
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **John Victor do E. Santo da Encarnação**
 
-- 🌐 Site: [kaofetech.com](https://kaofetech.com)  
-- 📂 Instagram: [johnvic7or](https://www.instagram.com/johnvic7or/)  
-- ✉️ E-mail: victorjohn609@gmail.com  
+- Site: [kaofetech.com](https://kaofetech.com)  
+- Instagram: [johnvic7or](https://www.instagram.com/johnvic7or/)  
+- E-mail: victorjohn609@gmail.com  
 
 ---
 
